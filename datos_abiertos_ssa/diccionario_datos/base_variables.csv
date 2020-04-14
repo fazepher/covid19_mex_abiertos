@@ -2,7 +2,7 @@ NOM_VARIABLE,DESCR_VARIABLE,TIPO_VARIABLE,TIPO_COD,OBS
 FECHA_ACTUALIZACION,"La base de datos se alimenta diariamente, esta variable permite identificar la fecha de la ultima actualizacion.",FECHA,,AAAA-MM-DD
 ORIGEN,"La vigilancia centinela se realiza a través del sistema de unidades de salud monitoras de enfermedades respiratorias (USMER). Las USMER incluyen unidades médicas del primer, segundo o tercer nivel de atención y también participan como USMER las unidades de tercer nivel que por sus características contribuyen a ampliar el panorama de información epidemiológica, entre ellas las que cuenten con especialidad de neumología, infectología o pediatría. (Categorías en Catalógo Anexo).",NOMINAL,ORIGEN,
 SECTOR,Identifica el tipo de institución del Sistema Nacional de Salud que brindó la atención.,NOMINAL,SECTOR,
-ENTIDAD_UM,Identifica la entidad donde se ubica la unidad medica que brindó la atención.,NOMINAL,ENTIDAD,
+ENTIDAD_UM,Identifica la entidad donde se ubica la unidad medica que brindó la atención.,NOMINAL,ENTIDADES,
 SEXO,Identifica al sexo del paciente.,NOMINAL,SEXO,
 ENTIDAD_NAC,Identifica la entidad de nacimiento del paciente.,NOMINAL,ENTIDADES,
 ENTIDAD_RES,Identifica la entidad de residencia del paciente.,NOMINAL,ENTIDADES,
