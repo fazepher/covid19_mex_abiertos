@@ -16,7 +16,7 @@ NEUMONIA,Identifica si al paciente se le diagnosticó con neumonía.,NOMINAL,SI_NO
 EDAD,Identifica la edad del paciente.,NUM,,En años
 NACIONALIDAD,Identifica si el paciente es mexicano o extranjero.,NOMINAL,NACIONALIDAD,
 EMBARAZO,Identifica si la paciente está embarazada.,NOMINAL,SI_NO,
-HABLA_LENGUA_INDIG,Identifica si el paciente habla lengua índigena.,NOMINAL,SI_NO,
+HABLA_LENGUA_INDI,Identifica si el paciente habla lengua índigena.,NOMINAL,SI_NO,
 DIABETES,Identifica si el paciente tiene un diagnóstico de diabetes. ,NOMINAL,SI_NO,
 EPOC,Identifica si el paciente tiene un diagnóstico de EPOC. ,NOMINAL,SI_NO,
 ASMA,Identifica si el paciente tiene un diagnóstico de asma. ,NOMINAL,SI_NO,
