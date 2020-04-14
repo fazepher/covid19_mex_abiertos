@@ -1,0 +1,35 @@
+NOM_VARIABLE,DESCR_VARIABLE,TIPO_VARIABLE,TIPO_COD,OBS
+FECHA_ACTUALIZACION,"La base de datos se alimenta diariamente, esta variable permite identificar la fecha de la ultima actualizacion.",FECHA,,AAAA-MM-DD
+ORIGEN,"La vigilancia centinela se realiza a través del sistema de unidades de salud monitoras de enfermedades respiratorias (USMER). Las USMER incluyen unidades médicas del primer, segundo o tercer nivel de atención y también participan como USMER las unidades de tercer nivel que por sus características contribuyen a ampliar el panorama de información epidemiológica, entre ellas las que cuenten con especialidad de neumología, infectología o pediatría. (Categorías en Catalógo Anexo).",NOMINAL,ORIGEN,
+SECTOR,Identifica el tipo de institución del Sistema Nacional de Salud que brindó la atención.,NOMINAL,SECTOR,
+ENTIDAD_UM,Identifica la entidad donde se ubica la unidad medica que brindó la atención.,NOMINAL,ENTIDAD,
+SEXO,Identifica al sexo del paciente.,NOMINAL,SEXO,
+ENTIDAD_NAC,Identifica la entidad de nacimiento del paciente.,NOMINAL,ENTIDADES,
+ENTIDAD_RES,Identifica la entidad de residencia del paciente.,NOMINAL,ENTIDADES,
+MUNICIPIO_RES,Identifica el municipio de residencia del paciente.,NOMINAL,,Se necesita concatenar con entidad
+TIPO_PACIENTE,Identifica el tipo de atención que recibió el paciente en la unidad. Se denomina como ambulatorio si regresó a su casa o se denomina como hospitalizado si fue ingresado a hospitalización.,NOMINAL,TIPO_PACIENTE,
+FECHA_INGRESO,Identifica la fecha de ingreso del paciente a la unidad de atención.,FECHA,,AAAA-MM-DD
+FECHA_SINTOMAS,Idenitifica la fecha en que inició la sintomatología del paciente.,FECHA,,AAAA-MM-DD
+FECHA_DEF,Identifica la fecha en que el paciente falleció.,FECHA,,AAAA-MM-DD
+INTUBADO,Identifica si el paciente requirió de intubación.,NOMINAL,SI_NO,
+NEUMONIA,Identifica si al paciente se le diagnosticó con neumonía.,NOMINAL,SI_NO,
+EDAD,Identifica la edad del paciente.,NUM,,En años
+NACIONALIDAD,Identifica si el paciente es mexicano o extranjero.,NOMINAL,NACIONALIDAD,
+EMBARAZO,Identifica si la paciente está embarazada.,NOMINAL,SI_NO,
+HABLA_LENGUA_INDIG,Identifica si el paciente habla lengua índigena.,NOMINAL,SI_NO,
+DIABETES,Identifica si el paciente tiene un diagnóstico de diabetes. ,NOMINAL,SI_NO,
+EPOC,Identifica si el paciente tiene un diagnóstico de EPOC. ,NOMINAL,SI_NO,
+ASMA,Identifica si el paciente tiene un diagnóstico de asma. ,NOMINAL,SI_NO,
+INMUSUPR,Identifica si el paciente presenta inmunosupresión.,NOMINAL,SI_NO,
+HIPERTENSION,Identifica si el paciente tiene un diagnóstico de hipertensión. ,NOMINAL,SI_NO,
+OTRAS_COM,Identifica si el paciente tiene diagnóstico de otras enfermedades.,NOMINAL,SI_NO,
+CARDIOVASCULAR,Identifica si el paciente tiene un diagnóstico de enfermedades cardiovasculares. ,NOMINAL,SI_NO,
+OBESIDAD,Identifica si el paciente tiene diagnóstico de obesidad.,NOMINAL,SI_NO,
+RENAL_CRONICA,Identifica si el paciente tiene diagnóstico de insuficiencia renal crónica.,NOMINAL,SI_NO,
+TABAQUISMO,Identifica si el paciente tiene hábito de tabaquismo.,NOMINAL,SI_NO,
+OTRO_CASO,Identifica si el paciente tuvo contacto con algún otro caso diagnósticado con SARS CoV-2,NOMINAL,SI_NO,
+RESULTADO,"Identifica el resultado del análisis de la muestra reportado por el  laboratorio de la Red Nacional de Laboratorios de Vigilancia Epidemiológica (INDRE, LESP y LAVE). (Catálogo de resultados diagnósticos anexo).",NOMINAL,RESULTADO,
+MIGRANTE,Identifica si el paciente es una persona migrante.,NOMINAL,SI_NO,
+PAIS_NACIONALIDAD,Identifica la nacionalidad del paciente.,TEXTO,,99=SE IGNORA
+PAIS_ORIGEN,Identifica el país del que partió el paciente rumbo a México.,TEXTO,,97=NO APLICA
+UCI,Identifica si el paciente requirió ingresar a una Unidad de Cuidados Intensivos.,NOMINAL,SI_NO,
